@@ -8,6 +8,7 @@ def shuffle(string):
   return ''.join(tempList)
 
 #getting letters for passwords by Ascii values
+
 uppercaseLetter1=chr(random.randint(65,90)) 
 uppercaseLetter2=chr(random.randint(65,90)) 
 lowercaseLetter1= chr(random.randint(97,122))
